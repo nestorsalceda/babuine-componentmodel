@@ -1,0 +1,26 @@
+Babuine Component Model
+========================
+
+The babuine component model intends create quickly and easily software
+components.
+
+The framework contains the following features:
+
+	* Inversion of Control / Dependency Injection framework.
+	* Simple.
+	* Non-intrusive framework code.
+	* Fast.
+	* Frienldy with .NET namings and conventions.
+
+* Requeriments and Compiling:
+	
+	* You will need NAnt 0.85
+	* You will need NUnit 2.2.8
+
+	Just type nant.
+
+* Breaking change:
+
+	Well, for the new 0.4.6 version, is the first including a big philosophy
+	change.  The change is the switch to a IoC philosophy instead of the
+	Service Locator one.

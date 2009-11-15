@@ -1,0 +1,38 @@
+In this document I will write some scenarios that should be checked.  Until I
+use a clearer nomenclature for the tests I will need this document.
+
+SCENARIO:
+	
+	- Instead of distinguish between simple and recursive scenario, I will
+	  test the recursive, because recursive contains the simple scenario.
+
+	* Injection.- We should add 3 recursive levels for
+	ensure quality.
+
+		* Injection by field in all levels.
+			* Injection by type
+			* Injection by instance
+
+		* Injection by constructor in all levels.
+			* Injection by type
+			* Injection by instance
+	
+		* Mixed injection combining field / constructor.
+
+		* Mixed injection with attributes and assembler.
+			* This will tests also the prevalence for assembler settings.
+
+		* Mixed Injection in all levels mixed unique instance and non-unique.
+			* This will also tests the prevalence for the assembler settings.
+		* Mixed Injection in all levels with unique instance attributes.
+
+		* Mixed Injection selecting among implementations with attributes.
+
+		* An external source of objects:
+			* DBus via NDesk Managed DBus.
+
+	* Wiring:
+		
+		* Test for exceptions passing incorrect parameters.
+			* Ex: Passing a type that isn't an inteface ...
+
